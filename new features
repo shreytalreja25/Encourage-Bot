@@ -1,0 +1,21 @@
+'''
+def joke():
+  response = requests.get('https://api.chucknorris.io/jokes/random')
+  json_data = json.loads(response.text)
+  joke = json_data[0]['value']
+  return(joke)
+'''
+
+'''if message.content.startswith('$joke'):
+    await message.channel.send(joke) 
+'''
+  
+
+  # gifs
+  # jokes
+  # youtube recos
+  # images
+  # music
+  # weather
+  # story telling
+  # movie music recomendation
